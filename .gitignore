@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+kentbot/kent.db
+.env
