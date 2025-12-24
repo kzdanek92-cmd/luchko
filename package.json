@@ -1,0 +1,29 @@
+{
+  "name": "kent-telegram-worker",
+  "version": "0.1.0",
+  "description": "Kent v0.1 Telegram bot for Cloudflare Workers with D1 storage and webhook-only handling.",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "migrate": "wrangler d1 migrations apply kent-bot",
+    "test": "npm run check"
+  },
+  "keywords": [
+    "telegram",
+    "cloudflare-workers",
+    "grammy",
+    "kent"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "grammy": "^1.38.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251224.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.56.0"
+  }
+}

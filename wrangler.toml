@@ -1,0 +1,9 @@
+name = "kent-worker"
+main = "src/index.ts"
+compatibility_date = "2024-04-03"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kent-bot"
+database_id = "replace-with-your-d1-id"

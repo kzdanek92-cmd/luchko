@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+kentbot/kent.db
+.env
+node_modules
+dist
+.wrangler
+.dev.vars
